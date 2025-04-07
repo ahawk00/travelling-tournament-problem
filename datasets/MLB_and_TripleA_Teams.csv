@@ -1,0 +1,52 @@
+Team ID,Team,Ballpark,Location,Latitude,Longitude,Level
+1,Arizona Diamondbacks,Yankee Stadium,"Bronx, NY",40.8296,-73.9262,MLB
+2,Atlanta Braves,Fenway Park,"Boston, MA",42.3467,-71.0972,MLB
+3,Baltimore Orioles,Dodger Stadium,"Los Angeles, CA",34.0739,-118.239,MLB
+4,Boston Red Sox,Wrigley Field,"Chicago, IL",41.9484,-87.6553,MLB
+5,Chicago Cubs,Minute Maid Park,"Houston, TX",29.7573,-95.3555,MLB
+6,Chicago White Sox,Oracle Park,"San Francisco, CA",37.7786,-122.3893,MLB
+7,Cincinnati Reds,Citizens Bank Park,"Philadelphia, PA",39.9057,-75.1665,MLB
+8,Cleveland Guardians,Truist Park,"Cumberland, GA",33.8908,-84.4678,MLB
+9,Colorado Rockies,Busch Stadium,"St. Louis, MO",38.6226,-90.1928,MLB
+10,Detroit Tigers,Citi Field,"Queens, NY",40.7571,-73.8458,MLB
+11,Houston Astros,Petco Park,"San Diego, CA",32.7076,-117.157,MLB
+12,Kansas City Royals,American Family Field,"Milwaukee, WI",43.028,-87.9711,MLB
+13,Los Angeles Angels,Nationals Park,"Washington, DC",38.873,-77.0074,MLB
+14,Los Angeles Dodgers,Great American Ball Park,"Cincinnati, OH",39.0975,-84.507,MLB
+15,Miami Marlins,Coors Field,"Denver, CO",39.756,-104.9942,MLB
+16,Milwaukee Brewers,PNC Park,"Pittsburgh, PA",40.4469,-80.0057,MLB
+17,Minnesota Twins,loanDepot Park,"Miami, FL",25.7781,-80.2197,MLB
+18,New York Mets,Guaranteed Rate Field,"Chicago, IL",41.83,-87.6339,MLB
+19,New York Yankees,Chase Field,"Phoenix, AZ",33.4455,-112.0667,MLB
+20,Oakland Athletics,Progressive Field,"Cleveland, OH",41.4962,-81.6852,MLB
+21,Philadelphia Phillies,Comerica Park,"Detroit, MI",42.339,-83.0496,MLB
+22,Pittsburgh Pirates,Kauffman Stadium,"Kansas City, MO",39.0516,-94.4805,MLB
+23,San Diego Padres,Target Field,"Minneapolis, MN",44.9817,-93.2775,MLB
+24,San Francisco Giants,Oakland Coliseum,"Oakland, CA",37.7516,-122.2005,MLB
+25,Seattle Mariners,T-Mobile Park,"Seattle, WA",47.5914,-122.3325,MLB
+26,St. Louis Cardinals,Tropicana Field,"St. Petersburg, FL",27.7683,-82.6534,MLB
+27,Tampa Bay Rays,Globe Life Field,"Arlington, TX",32.7473,-97.0847,MLB
+28,Texas Rangers,Rogers Centre,"Toronto, ON",43.6414,-79.3894,MLB
+29,Toronto Blue Jays,Oriole Park at Camden Yards,"Baltimore, MD",39.2839,-76.6218,MLB
+30,Washington Nationals,Angel Stadium,"Anaheim, CA",33.8003,-117.8827,MLB
+31,Albuquerque Isotopes,Rio Grande Credit Union Field,"Albuquerque, NM",35.069,-106.6296,Triple-A
+32,Buffalo Bisons,Sahlen Field,"Buffalo, NY",42.8807,-78.8764,Triple-A
+33,El Paso Chihuahuas,Southwest University Park,"El Paso, TX",31.7633,-106.4903,Triple-A
+34,Gwinnett Stripers,Coolray Field,"Lawrenceville, GA",34.0417,-83.9916,Triple-A
+35,Iowa Cubs,Principal Park,"Des Moines, IA",41.583,-93.624,Triple-A
+36,Jacksonville Jumbo Shrimp,121 Financial Ballpark,"Jacksonville, FL",30.3239,-81.6372,Triple-A
+37,Las Vegas Aviators,Las Vegas Ballpark,"Summerlin, NV",36.1505,-115.332,Triple-A
+38,Lehigh Valley IronPigs,Coca-Cola Park,"Allentown, PA",40.6357,-75.4376,Triple-A
+39,Louisville Bats,Louisville Slugger Field,"Louisville, KY",38.2574,-85.7416,Triple-A
+40,Memphis Redbirds,AutoZone Park,"Memphis, TN",35.1465,-90.049,Triple-A
+41,Nashville Sounds,First Horizon Park,"Nashville, TN",36.1748,-86.787,Triple-A
+42,Oklahoma City Dodgers,Chickasaw Bricktown Ballpark,"Oklahoma City, OK",35.4645,-97.5086,Triple-A
+43,Omaha Storm Chasers,Werner Park,"Papillion, NE",41.1546,-96.0993,Triple-A
+44,Rochester Red Wings,Innovative Field,"Rochester, NY",43.1548,-77.6101,Triple-A
+45,Round Rock Express,Dell Diamond,"Round Rock, TX",30.5253,-97.6694,Triple-A
+46,Sacramento River Cats,Sutter Health Park,"West Sacramento, CA",38.5803,-121.5136,Triple-A
+47,Salt Lake Bees,Smith's Ballpark,"Salt Lake City, UT",40.7503,-111.901,Triple-A
+48,Scranton/Wilkes-Barre RailRiders,PNC Field,"Moosic, PA",41.3602,-75.705,Triple-A
+49,St. Paul Saints,CHS Field,"St. Paul, MN",44.9506,-93.0854,Triple-A
+50,Syracuse Mets,NBT Bank Stadium,"Syracuse, NY",43.0728,-76.1705,Triple-A
+51,Worcester Red Sox,Polar Park,"Worcester, MA",42.2626,-71.8008,Triple-A
