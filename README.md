@@ -5,7 +5,7 @@ This repository provides tools to generate, evaluate, and optimize tournament sc
 
 Generates random double round-robin schedules for the TTP, evaluates distance and constraint violations.
 
-Run: ```bash python random_search.py --n_schedules 5000```
+Run: ```python random_search.py --n_schedules 5000```
 
 Saved to results/random_search/{row,column}/:
 - **`{n}.txt`**  
@@ -40,8 +40,7 @@ Saved to results/random_search/{row,column}/:
 ## Run Hill Climbing Instance(s)
 Performs Hill Climbing to improve schedules based on distance or violations iteratively.
 
-Run:
-```bash python hill_climbing.py --instance SM4 --iterations 50000 --schedule_type row --objective distance --trials 3 ```
+Run:``` python hill_climbing.py --instance SM4 --iterations 50000 --schedule_type row --objective distance --trials 3 ```
 
 Results are saved to: results/HC_{iterations}/{objective}/{row,column}/{trial}/
 Each trial produces:
@@ -60,8 +59,7 @@ Each trial produces:
 ## Run Simulated Annealing Instance(s)
 Runs Simulated Annealing with customisable cooling schedules to optimise schedules by reducing distance or violations.
 
-Run:
-```bash python simulated_annealing.py --instance SM12 --iterations 100000 --schedule_type row --objective distance --cooling geometric --trials 3 ```
+Run:``` python simulated_annealing.py --instance SM12 --iterations 100000 --schedule_type row --objective distance --cooling geometric --trials 3 ```
 
 Results are saved in: results/SA_{iterations}/{cooling}/{row,column}/{trial}/
 Each trial produces:
@@ -79,7 +77,7 @@ Each trial produces:
 ## Simulated Annealing with CP-SAT Repair
 Runs SA and periodically repairs (every 10,000 iterations) schedules using the CP-SAT solver.
 
-```bash python CP_SAT_constraint_repair.py --instance SM12 --iterations 100000 --schedule_type column --cooling geometric --trials 3 --cpsat_mode strict```
+Run:``` python CP_SAT_constraint_repair.py --instance SM12 --iterations 100000 --schedule_type column --cooling geometric --trials 3 --cpsat_mode strict```
 
 Results are saved in: results/{CP_SAT_Strict|CP_SAT_Soft}_{iterations}/{cooling_type}/{schedule_type}/{trial}/
 - **`best_distance_{dataset}.txt`**: Summary of the best low-distance result per trial:
@@ -111,10 +109,10 @@ Results are saved in: results/{CP_SAT_Strict|CP_SAT_Soft}_{iterations}/{cooling_
 SA combined with rule-based (deterministic) constraint repair, using either row- or column-based schedule initialization. Repair every 10,000 iterations
 
 ### Row-first initialisation schedule repair
-```bash python row_deterministic_repair.py --instance SM10 --iterations 100000  --cooling geometric --trials 5```
+``` python row_deterministic_repair.py --instance SM10 --iterations 100000  --cooling geometric --trials 5```
 
 ### Column-first initilisation schedule repair
-```bash python col_deterministic_repair.py --instance SM10 --iterations 100000  --cooling geometric --trials 5```
+``` python col_deterministic_repair.py --instance SM10 --iterations 100000  --cooling geometric --trials 5```
 
 Results are saved under: results/deterministic_repair_{iterations}/{schedule_type}/{trial}/
 - **`best_{dataset}.txt`**: Summary of the best result per trial:
